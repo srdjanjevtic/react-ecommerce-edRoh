@@ -1,7 +1,14 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
+import NavBar from "../components/NavBar";
+import ScrollToTop from "../utils/ScrollToTop";
 
-const MainLayout = () => {
-  return <div>MainLayout</div>;
-};
-
-export default MainLayout;
+export default function MainLayout() {
+  return (
+    <>
+      <ScrollToTop />
+      <NavBar />
+      <Outlet />
+    </>
+  );
+}
