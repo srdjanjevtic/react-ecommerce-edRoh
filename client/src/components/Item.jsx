@@ -30,7 +30,7 @@ const Item = ({ item, width }) => {
     <Box width={width}>
       <Box
         position="relative"
-        onMouseHover={() => setIsHovered(true)}
+        onMouseOver={() => setIsHovered(true)}
         onMouseOut={() => setIsHovered(false)}
       >
         <img

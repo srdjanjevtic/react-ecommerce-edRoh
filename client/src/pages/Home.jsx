@@ -1,4 +1,5 @@
 import MainCarousel from "../components/MainCarousel";
+import Subscribe from "../components/Subscribe";
 import ShoppingList from "./ShoppingList";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <MainCarousel />
       <ShoppingList />
+      <Subscribe />
     </div>
   );
 };
