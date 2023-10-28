@@ -1,7 +1,11 @@
+import MainCarousel from "../components/MainCarousel";
+import ShoppingList from "./ShoppingList";
+
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <MainCarousel />
+      <ShoppingList />
     </div>
   );
 };

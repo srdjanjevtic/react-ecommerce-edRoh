@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "server-2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "28b6a455-5cf3-44d1-9cb0-b643dfc5cb2e"
+    "uuid": "2f39ff18-928f-4490-a869-066b985428b5"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",

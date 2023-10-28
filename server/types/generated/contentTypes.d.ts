@@ -690,7 +690,7 @@ export interface ApiItemItem extends Schema.CollectionType {
   attributes: {
     name: Attribute.String;
     shortDescription: Attribute.RichText;
-    longDescription: Attribute.RichText;
+    longDecription: Attribute.RichText;
     price: Attribute.Decimal;
     image: Attribute.Media;
     category: Attribute.Enumeration<['newArrivals', 'bestSellers', 'topRated']>;

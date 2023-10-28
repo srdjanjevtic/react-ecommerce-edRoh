@@ -17,7 +17,7 @@
     "shortDescription": {
       "type": "richtext"
     },
-    "longDescription": {
+    "longDecription": {
       "type": "richtext"
     },
     "price": {
