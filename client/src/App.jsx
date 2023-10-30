@@ -16,7 +16,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />} errorElement={<Error />}>
       <Route index element={<Home />} />
-      <Route path="items/:itemId" element={<ItemDetails />} />
+      <Route path="item/:itemId" element={<ItemDetails />} />
       <Route path="checkout" element={<CheckOut />} />
       <Route path="checkout/success" element={<Confirmation />} />
       <Route path="*" element={<NotFound />} />

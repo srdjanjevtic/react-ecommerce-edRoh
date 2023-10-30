@@ -683,6 +683,7 @@ export interface ApiItemItem extends Schema.CollectionType {
     singularName: 'item';
     pluralName: 'items';
     displayName: 'Item';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -690,7 +691,7 @@ export interface ApiItemItem extends Schema.CollectionType {
   attributes: {
     name: Attribute.String;
     shortDescription: Attribute.RichText;
-    longDecription: Attribute.RichText;
+    longDescription: Attribute.RichText;
     price: Attribute.Decimal;
     image: Attribute.Media;
     category: Attribute.Enumeration<['newArrivals', 'bestSellers', 'topRated']>;
